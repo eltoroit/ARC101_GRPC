@@ -1,0 +1,20 @@
+{
+    "name": "dynamic_codegen",
+    "version": "1.0.0",
+    "main": "greeter_client.js",
+    "author": "Andres Perez <aperez@salesforce.com> (http://eltoro.it/)",
+    "license": "ISC",
+    "description": "",
+    "scripts": {
+        "server": "node greeter_server.js",
+        "client": "node greeter_client.js"
+    },
+    "dependencies": {
+        "@grpc/proto-loader": "^0.5.0",
+        "async": "^1.5.2",
+        "google-protobuf": "^3.0.0",
+        "@grpc/grpc-js": "^1.1.0",
+        "lodash": "^4.6.1",
+        "minimist": "^1.2.0"
+    }
+}
